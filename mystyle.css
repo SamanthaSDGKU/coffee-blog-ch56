@@ -33,6 +33,7 @@ h2{
     font-size: 12px;
     letter-spacing: 2px;
     color:white;
+    border:none;
 }
 .btn-read-more{
     background-color: black;
@@ -49,6 +50,11 @@ h2{
     height: 350px;
     color:white;
     text-align: center;
+}
+.header-contact{
+    height: 150px;
+    background-color: black;
+    color:white;
 }
 .title{
     font-size: 26px;
@@ -101,4 +107,36 @@ h2{
 footer{
     color:white;
     background-color: black;
+}
+
+/*contact*/
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    background-color: white;
+    padding: 20px;
+    margin-top: -50px;
+}
+.input-container{
+    display: flex;
+}
+label{
+    display: block;
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+    color:#555555;
+    width:20%;
+}
+input,textarea{
+    width:80%;
+    padding:5px;
+    margin-bottom: 15px;
+    border:1px solid #cccccc;
+    border-radius: 5px;
+}
+textarea{
+    height: 50px;
+    resize: none;
 }
